@@ -1,53 +1,42 @@
 <!DOCTYPE html>
-<html lang="en" class="scroll-smooth">
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Services - ArmorSec Cyber Defense</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Services | ArmorSec</title>
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-gray-50 text-gray-800 font-sans">
-  <header class="bg-gray-900 text-cyan-400 p-4">
-    <div class="container mx-auto flex justify-between items-center">
-      <h1 class="text-2xl font-bold">ArmorSec Cyber Defense</h1>
-      <nav>
-        <a href="index.html" class="mx-2 hover:text-cyan-300">Home</a>
-        <a href="services.html" class="mx-2 hover:text-cyan-300">Services</a>
-        <a href="about.html" class="mx-2 hover:text-cyan-300">About</a>
-        <a href="contact.html" class="mx-2 hover:text-cyan-300">Contact</a>
-      </nav>
+<body class="font-sans text-gray-800">
+
+  <!-- Navigation Bar -->
+  <nav class="bg-gray-800 text-white p-4 flex justify-between items-center">
+    <div class="text-xl font-bold">
+      <a href="index.html">ArmorSec</a>
     </div>
-  </header>
+    <div class="space-x-4 hidden md:flex">
+      <a href="index.html" class="hover:underline">Home</a>
+      <a href="services.html" class="hover:underline">Services</a>
+      <a href="about.html" class="hover:underline">About</a>
+      <a href="contact.html" class="hover:underline">Contact</a>
+    </div>
+  </nav>
 
-  <main class="container mx-auto p-6 max-w-4xl">
-    <h2 class="text-3xl font-semibold mb-6 text-cyan-700">Our Services</h2>
-    <ul class="list-disc list-inside space-y-4 text-lg">
-      <li>
-        <strong>Free Security Assessment</strong><br />
-        Get a no-obligation scan of your current systems. We’ll identify vulnerabilities and show you what needs attention — fast and simple.
-      </li>
-      <li>
-        <strong>Endpoint Protection Setup</strong><br />
-        We help you secure your devices with trusted antivirus and EDR solutions — protecting your POS, staff computers, and more.
-      </li>
-      <li>
-        <strong>Firewall & Network Hardening</strong><br />
-        Lock down your routers, surveillance systems, and Wi-Fi. We optimize your network to block threats before they reach your business.
-      </li>
-      <li>
-        <strong>Dark Web Monitoring</strong><br />
-        We scan the dark web for stolen credentials tied to your business or employees. Get alerts before attackers strike.
-      </li>
-      <li>
-        <strong>Security Awareness Training</strong><br />
-        We teach your team how to spot phishing, social engineering, and cyber scams — fast, practical, and tailored to your staff.
-      </li>
+  <!-- Services Content -->
+  <section class="max-w-3xl mx-auto mt-10">
+    <h2 class="text-3xl font-bold mb-6 text-center">Our Services</h2>
+    <ul class="space-y-4 text-lg">
+      <li><strong>Cyber Risk Assessments</strong> – Identify your digital weak points.</li>
+      <li><strong>Compliance Consulting</strong> – Stay compliant with ATF, PCI-DSS, etc.</li>
+      <li><strong>Firewall & Network Hardening</strong> – Lock down your perimeter.</li>
+      <li><strong>Security Awareness Training</strong> – Train staff to detect and avoid threats.</li>
+      <li><strong>Ongoing Monitoring & Support</strong> – We watch your six, 24/7.</li>
     </ul>
-    <a href="contact.html" class="inline-block mt-8 bg-cyan-600 text-white px-6 py-3 rounded hover:bg-cyan-700 transition">Request a Free Assessment</a>
-  </main>
+  </section>
 
-  <footer class="bg-gray-900 text-gray-400 text-center py-4 mt-12">
-    &copy; 2025 ArmorSec Cyber Defense | Veteran-Owned &amp; Operated
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white text-center p-4 mt-10">
+    <p>&copy; 2025 ArmorSec Cyber Defense. All rights reserved.</p>
   </footer>
+
 </body>
 </html>
