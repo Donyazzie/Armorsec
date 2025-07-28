@@ -1,32 +1,44 @@
 <!DOCTYPE html>
-<html lang="en" class="scroll-smooth">
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>About - ArmorSec Cyber Defense</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About | ArmorSec</title>
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-gray-50 text-gray-800 font-sans">
-  <header class="bg-gray-900 text-cyan-400 p-4">
-    <div class="container mx-auto flex justify-between items-center">
-      <h1 class="text-2xl font-bold">ArmorSec Cyber Defense</h1>
-      <nav>
-        <a href="index.html" class="mx-2 hover:text-cyan-300">Home</a>
-        <a href="services.html" class="mx-2 hover:text-cyan-300">Services</a>
-        <a href="about.html" class="mx-2 hover:text-cyan-300">About</a>
-        <a href="contact.html" class="mx-2 hover:text-cyan-300">Contact</a>
-      </nav>
+<body class="font-sans text-gray-800">
+
+  <!-- Navigation Bar -->
+  <nav class="bg-gray-800 text-white p-4 flex justify-between items-center">
+    <div class="text-xl font-bold">
+      <a href="index.html">ArmorSec</a>
     </div>
-  </header>
+    <div class="space-x-4 hidden md:flex">
+      <a href="index.html" class="hover:underline">Home</a>
+      <a href="services.html" class="hover:underline">Services</a>
+      <a href="about.html" class="hover:underline">About</a>
+      <a href="contact.html" class="hover:underline">Contact</a>
+    </div>
+  </nav>
 
-  <main class="container mx-auto p-6 max-w-3xl">
-    <h2 class="text-3xl font-semibold mb-6 text-cyan-700">About ArmorSec</h2>
-    <p class="mb-4">Founded by veteran <strong>Donavon Yazzie – Founder &amp; Cybersecurity Specialist</strong>, ArmorSec Cyber Defense helps protect the digital side of 2A businesses. From gun shops to shooting ranges, we ensure you stay secure, compliant, and prepared — without breaking the bank.</p>
-    <p>Our mission is to provide simple, effective cybersecurity services tailored to the unique needs of firearms retailers and shooting ranges, combining real-world experience with technical expertise.</p>
-  </main>
+  <!-- About Content -->
+  <section class="max-w-3xl mx-auto mt-10">
+    <h2 class="text-3xl font-bold mb-4 text-center">Who We Are</h2>
+    <p class="text-lg mb-4">
+      ArmorSec Cyber Defense is founded by a U.S. military veteran with a passion for cybersecurity, firearms, and protecting the freedoms we value.
+    </p>
+    <p class="text-lg mb-4">
+      With a degree in cybersecurity and hands-on experience, our mission is to help small businesses — especially gun shops, ranges, and 2A-supporting organizations — stay secure in an increasingly hostile digital world.
+    </p>
+    <p class="text-lg">
+      We combine military-grade discipline with cutting-edge tech to defend your business and your customers.
+    </p>
+  </section>
 
-  <footer class="bg-gray-900 text-gray-400 text-center py-4 mt-12">
-    &copy; 2025 ArmorSec Cyber Defense | Veteran-Owned &amp; Operated
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white text-center p-4 mt-10">
+    <p>&copy; 2025 ArmorSec Cyber Defense. All rights reserved.</p>
   </footer>
+
 </body>
 </html>
