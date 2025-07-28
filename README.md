@@ -1,2 +1,110 @@
 # Armosec
 Cybersecurity services for firearm businesses
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ArmorSec Cyber Defense</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      background: #f5f5f5;
+      color: #333;
+    }
+    header {
+      background: #111;
+      color: #fff;
+      padding: 1rem 2rem;
+      text-align: center;
+    }
+    nav a {
+      margin: 0 1rem;
+      color: #0ff;
+      text-decoration: none;
+    }
+    .hero {
+      background: url('https://images.unsplash.com/photo-1555617983-8024f4f4f1e7') no-repeat center center/cover;
+      height: 300px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      text-shadow: 1px 1px 3px rgba(0,0,0,0.7);
+    }
+    .container {
+      padding: 2rem;
+      max-width: 1000px;
+      margin: auto;
+      background: #fff;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #111;
+      color: #ccc;
+      font-size: 0.9rem;
+    }
+    h1, h2 {
+      color: #003366;
+    }
+    .button {
+      display: inline-block;
+      background: #003366;
+      color: #fff;
+      padding: 0.75rem 1.5rem;
+      margin-top: 1rem;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>ArmorSec Cyber Defense</h1>
+    <nav>
+      <a href="#services">Services</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Veteran-Owned Cybersecurity for Firearm Businesses</h2>
+  </section>
+
+  <div class="container">
+    <section id="services">
+      <h2>Our Services</h2>
+      <ul>
+        <li>Free Cybersecurity Assessments</li>
+        <li>POS & Wi-Fi Hardening</li>
+        <li>ATF Compliance Support</li>
+        <li>Monthly Cyber Monitoring</li>
+        <li>Incident Response Consulting</li>
+      </ul>
+      <a href="#contact" class="button">Request Free Assessment</a>
+    </section>
+
+    <section id="about">
+      <h2>About ArmorSec</h2>
+      <p>Founded by veteran Donavon Yazzie, ArmorSec Cyber Defense helps protect the digital side of 2A businesses. From gun shops to shooting ranges, we ensure you stay secure, compliant, and prepared — without breaking the bank.</p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <p>Email: <a href="mailto:info@armorsec.com">info@armorsec.com</a><br />
+      Phone: (505) 555-2238<br />
+      Based in New Mexico</p>
+    </section>
+  </div>
+
+  <footer>
+    &copy; 2025 ArmorSec Cyber Defense | Veteran-Owned & Operated
+  </footer>
+</body>
+</html>
